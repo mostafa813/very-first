@@ -1,0 +1,33 @@
+body{
+    direction: rtl;
+}
+.container{
+ display: flex;
+ flex-direction: row;   
+ justify-content: space-between;
+ padding: 10px;
+ background-color: #1f1f1f;
+}
+.menuicon{
+    background-color: black;
+    padding: 11px;
+    border-radius: 7px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+.searchInput{
+    width: 100%;
+    border: 0;
+    background-color: #050505;
+    border-radius: 35px;
+    outline: none;
+}
+.searchsection{
+    display: flex;
+    border-radius: 35px;
+    background-color: #050505;
+    width: 100%;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 10px;
+}

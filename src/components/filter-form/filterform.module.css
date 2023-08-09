@@ -1,0 +1,12 @@
+.container {
+  background-color: #1f1f1f;
+  margin-top: 10px;
+}
+.kind{
+  text-align: center;
+  color:#fff;
+}
+.kinds{
+  display: flex;
+  justify-content: space-between ;
+}
