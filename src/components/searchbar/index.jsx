@@ -7,11 +7,11 @@ function SearchAppBar() {
   return (
     <div className={styles.container}>
       <div className={styles.menuicon}>
-        <HambergerMenu size="22" color="#FFF" />
+        <HambergerMenu size="20" color="#FFF" />
       </div>
       <div className={styles.searchsection}>
         <input type="search" className={styles.searchInput}/>
-        <SearchNormal1 size="20" color="#eb8307"/>
+        <SearchNormal1 size="16" color="#eb8307"/>
       </div>
     </div>
   );

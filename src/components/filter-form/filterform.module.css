@@ -1,12 +1,37 @@
 .container {
-  background-color: #1f1f1f;
+  background-color: #242424;
   margin-top: 10px;
 }
-.kind{
+.kind {
   text-align: center;
-  color:#fff;
+  color: #fff;
 }
-.kinds{
+.kinds {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
+  padding: 2px 5px;
+  border-radius: 35px;
+  background: #1c1c1c;
+  margin: 0 15px;
+  height: 35px;
+  align-items: center;
+}
+.button {
+  border-radius: 35px;
+  border: 0;
+  width: 49px;
+  height: 25px;
+  background-color: #1c1c1c;
+  color: #fff;
+  font-size: 17px;
+}
+
+.selected {
+  background: #eb8307;
+}
+.director {
+  margin-right: 15px;
+  margin-top: 20px;
+  color: #fff;
+  font-size: 15px;
 }
