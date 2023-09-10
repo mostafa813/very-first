@@ -1,10 +1,12 @@
 .container {
   background-color: #242424;
   margin-top: 10px;
+  padding: 15px;
 }
 .kind {
   text-align: center;
   color: #fff;
+  font-size: 13px;
 }
 .kinds {
   display: flex;
@@ -12,7 +14,6 @@
   padding: 2px 5px;
   border-radius: 35px;
   background: #1c1c1c;
-  margin: 0 15px;
   height: 35px;
   align-items: center;
 }
@@ -23,15 +24,58 @@
   height: 25px;
   background-color: #1c1c1c;
   color: #fff;
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .selected {
   background: #eb8307;
 }
 .director {
-  margin-right: 15px;
   margin-top: 20px;
   color: #fff;
-  font-size: 15px;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.director2 {
+  border-radius: 35px;
+  background: #1c1c1c;
+  height: 35px;
+  border: 0;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 97%;
+  padding-right: 8px;
+}
+.actor {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.slider{
+  padding: 0 10px;
+}
+.actor2{
+  color: #fff;
+  font-size: 13px;
+    margin-bottom: 0;
+}
+.contri{
+  border-radius: 35px;
+  background: #1c1c1c;
+  height: 35px;
+  border: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 97%;
+  padding-right: 8px;
+  color: #64645e;
+  outline: none;
+}
+.actor3{
+  color: #fff;
+  margin-top: 15px;
+  font-size: 13px;
+    margin-bottom: 0;
 }
