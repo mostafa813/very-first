@@ -1,8 +1,11 @@
 import * as React from "react";
 import { useState } from "react";
 import styles from "./filterform.module.css";
-import { Slider } from "@mui/material";
+import { FormControlLabel, Slider } from "@mui/material";
 import { makeStyles } from "@mui/styles";
+import Switch from '@mui/material/Switch';
+import { styled } from '@mui/material/styles';
+import SwitchExample from "../switch";
 
 const useStyles = makeStyles({
   sliders: {
@@ -102,6 +105,7 @@ function FilterForm() {
         <option value="india">ترسناک</option>
         <option value="india">علمی-تخیلی</option>
       </select>
+      <SwitchExample/>
     </div>
   );
 }
